@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('always')
 warnings.filterwarnings('ignore')
 
-zomato_set = pd.read_csv("zomato (1).csv")
+zomato_set = pd.read_csv("zomato.csv")
 zomato_set.head()
 
 # Deleting Unnnecessary Columns
